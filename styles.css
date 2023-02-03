@@ -1,0 +1,9 @@
+/* ============ RESET ============ */
+*, *:hover, *:active {
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    text-decoration: none;
+    outline: none;
+}
+/* =============================== */
