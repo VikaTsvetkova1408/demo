@@ -7,6 +7,11 @@
     text-decoration: none;
     outline: none;
 }
+input { 
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
 /* =============================== */
 html {
     scroll-behavior: smooth;
@@ -118,3 +123,220 @@ h1 {
 #mainSectionBg:hover {
     transform: translateY(15);
 }
+.addition {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    /* выравнивание по середине */
+    align-items: center;
+    min-height: 100%;
+}
+.addition span {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    /* align-items: center; */
+    /* flex-direction: row;
+    flex-fl */
+     /* display: flex; */
+    /* justify-content: center; */
+   
+    /* flex-flow: row nowrap; */
+    /* height: 100%; */
+    /* margin-bottom: 100px; */
+} 
+.addition > div{
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+    align-items: center;
+}
+#contactUs {
+    width: 1000px;
+    display: flex;
+    gap: 35px;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+#contactDescription{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+#contactDescription span:first-child {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+#contactDescription span:last-child {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 35px 30px;
+}
+form span {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+
+}
+input {
+    width: 255px;
+    height: 50px;
+    /* background: #FFFFFF;
+    opacity: 0.2; */
+    background: rgba(255, 255, 255, 0.2);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+}
+input::placeholder {
+    color: #BEBEBE;
+}
+button{
+    width: 255px;
+    height: 50px;
+    /* background: #FFFFFF;
+    opacity: 0.2; */
+    /* background: rgba(255, 255, 255, 0.2); */
+    background: #D4C17F;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    /* transition: 0.3s; */
+}
+#contactWraper {
+    background-image: url(../images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.ourApartments{
+    
+    gap: 100px;
+    width: 100%;
+    height: 100%;
+    margin: 400px;
+    justify-content: center;
+    /* выравнивание по середине */
+    /* min-height: 100%; */
+}
+.ourApartments span{
+    font-family: 'Playfair Display';
+    color: #D4C17F;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    max-width: 30px;
+    left: 405px;
+    top: 1260px;
+}   
+.ourApartments > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 535px;
+    height: 320px;
+    min-height: 100%;
+}
+#secondfloorfirstphoto{
+    background-image: url(../images/Rectangle\ \(1\).png);
+}
+#secondfloorsecondphoto{
+    background-image: url(../images/Rectangle\ \(1\).png);
+}
+#thirdfloorfirstphoto{
+    background-image: url(../images/Rectangle\ \(2\).png);
+}
+#thirdfloorsecondphoto{
+    background-image: url(../images/Rectangle\ \(2\).png);
+}
+
+/* div {
+    width: 500px;
+    height: 500px;
+    background-image: url(http://avatars.mds.yandex.net/i?id=524a011f644d59bd8eead682b60edb43_l-4445663-images-thumbs&n=13);
+    cursor: pointer;   */
+    /*курсор*/
+    /* transition: 0.3s background-color; */
+    /* скорость изменения */
+    /* border-radius: 50%;  */
+    /* радиус угла */
+    /* background-size: cover;
+    transition: 0.3s ; */
+    /* прозрачность */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+div:hover {
+    background-image:none; */
+    /* opacity: 0.7 ; */
+    /* background-color: #555;
+   
+}
+span {
+    display: none;
+}
+div:hover>span {
+    display: block;
+} */
+/* display: flex;
+    flex-direction: row;
+    gap: 70px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    /* выравнивание по середине */
+    /* align-items: center; */
+    
+/* } */
+
+/* .addition > div{
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+    align-items: center; */ 
