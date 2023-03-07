@@ -378,6 +378,25 @@ div:hover>span {
     .ourApartments > div { 
         flex-direction:column;
     }
-   
+    #firstCard,
+    #secondCard,
+    #thirdCard,
+    #forthCard {
+        width: unset;
+    }
+    #contactUs {
+        flex-direction:column;
+        align-items: unset;
+    }
+    form {
+        grid-template-columns: 1fr;
+        /* 1 колонка по вертикали */
+        grid-template-rows: auto;
+        /* автоматическое вычисление колтчества строк */
+
+    }
+    form > span {
+        display: none;
+    }
 
 }
